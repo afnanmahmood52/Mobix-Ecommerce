@@ -1,0 +1,65 @@
+.top_section{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_first_row{
+    width: 100vw;
+}
+
+.navbar-custom{
+    background-color: rgb(56, 43, 43);
+    color: white;
+}
+
+.navbar-nav > a{
+    /* padding: 0 70px; */
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.ShopNow{
+    width: 200px;
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+}
+
+.nav-text{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.nav-text:hover{
+    color: rgb(153, 144, 144);
+}
+
+
+.middle_portion{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(199, 12, 12);
+}
+
+.middle_portion > h3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.right_portion{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.register_buttons{
+    margin-right: 10px;
+    display: flex;
+}

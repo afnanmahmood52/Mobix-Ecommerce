@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#Ignore .env files
+.env
+
+# dependencies
+mobix_fe/node_modules
+mobix_fe/.pnp
+mobix_fe/.pnp.js
+
+mobix_admin_fe/node_modules
+mobix_admin_fe/.pnp
+mobix_admin_fe/.pnp.js
+
+# testing
+mobix_fe/coverage
+mobix_admin_fe/coverage
+
+# production
+mobix_fe/build
+mobix_admin_fe/build
+
+# misc
+# main user frontend
+mobix_fe/.DS_Store
+mobix_fe/.env.local
+mobix_fe/.env.development.local
+mobix_fe/.env.test.local
+mobix_fe/.env.production.local
+
+mobix_fe/npm-debug.log*
+mobix_fe/yarn-debug.log*
+mobix_fe/yarn-error.log*
+
+# admin frontend
+mobix_admin_fe/.DS_Store
+mobix_admin_fe/.env.local
+mobix_admin_fe/.env.development.local
+mobix_admin_fe/.env.test.local
+mobix_admin_fe/.env.production.local
+
+mobix_admin_fe/npm-debug.log*
+mobix_admin_fe/yarn-debug.log*
+mobix_admin_fe/yarn-error.log*
+
+
+# Ignore Backend files
+mobix_api/node_modules
